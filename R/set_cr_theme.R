@@ -21,15 +21,15 @@ set_cr_theme <- function(font = "adobe") {
     ggplot2::theme_update(text = ggplot2::element_text(family = "Adobe Caslon Pro"))
     ggplot2::update_geom_defaults("text", list(family = "Adobe Caslon Pro"))
     ggplot2::update_geom_defaults("label", list(family = "Adobe Caslon Pro"))
-    ggplot2::update_geom_defaults("text_repel", list(family = "Adobe Caslon Pro"))
-    ggplot2::update_geom_defaults("label_repel", list(family = "Adobe Caslon Pro"))
+    # ggplot2::update_geom_defaults("text_repel", list(family = "Adobe Caslon Pro"))
+    # ggplot2::update_geom_defaults("label_repel", list(family = "Adobe Caslon Pro"))
 
   } else if (font == "lato") {
     ggplot2::theme_update(text = ggplot2::element_text(family = "Lato"))
     ggplot2::update_geom_defaults("text", list(family = "Lato"))
     ggplot2::update_geom_defaults("label", list(family = "Lato"))
-    ggplot2::update_geom_defaults("text_repel", list(family = "Lato"))
-    ggplot2::update_geom_defaults("label_repel", list(family = "Lato"))
+    # ggplot2::update_geom_defaults("text_repel", list(family = "Lato"))
+    # ggplot2::update_geom_defaults("label_repel", list(family = "Lato"))
 
   } else {
     stop('Font does not exist. Try "adobe" (Adobe Caslon Pro) or "lato" (Lato).',
