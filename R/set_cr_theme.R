@@ -10,7 +10,7 @@
 #' @export
 set_cr_theme <- function(font = "adobe") {
 
-  .onLoad()
+  # .onLoad()
 
   # set default theme
     ggplot2::theme_set(theme_cr())

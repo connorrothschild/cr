@@ -3,7 +3,6 @@
 #' Set custom color palettes in the `cr` library
 #' Color palettes found on http://colorbrewer2.org and are colorblind safe.
 #'
-#' @import RColorBrewer
 #' @import grDevices
 #'
 #' @param palette Character name of palette in cr_palettes
