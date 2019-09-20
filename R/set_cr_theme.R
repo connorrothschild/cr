@@ -49,21 +49,21 @@ set_cr_theme <- function(font = "adobe") {
 
     config <- yaml::read_yaml("https://raw.githubusercontent.com/connorrothschild/cr/master/config.yaml")
 
-    ggplot2::update_geom_defaults("bar", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("col", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("point", list(colour = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("line", list(colour = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("step", list(colour = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("path", list(colour = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("boxplot", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("density", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_geom_defaults("violin", list(fill = config$palettes$cr_main$oxfordblue))
+    ggplot2::update_geom_defaults("bar", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("col", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("point", list(colour = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("line", list(colour = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("step", list(colour = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("path", list(colour = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("boxplot", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("density", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_geom_defaults("violin", list(fill = config$palettes$cr_main$primary))
 
 # set colors for stats
 
-    ggplot2::update_stat_defaults("count", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_stat_defaults("boxplot", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_stat_defaults("density", list(fill = config$palettes$cr_main$oxfordblue))
-    ggplot2::update_stat_defaults("ydensity", list(fill = config$palettes$cr_main$oxfordblue))
+    ggplot2::update_stat_defaults("count", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_stat_defaults("boxplot", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_stat_defaults("density", list(fill = config$palettes$cr_main$primary))
+    ggplot2::update_stat_defaults("ydensity", list(fill = config$palettes$cr_main$primary))
 
 }

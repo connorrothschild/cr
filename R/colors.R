@@ -17,15 +17,12 @@ cr_color_list <- c(
   `divblue4` = "#92c5de",
   `divblue3` = "#4393c3",
   `divblue2` = "#2166ac",
-  `oxfordblue`  = "#151248",
-  `granitegray` = "#605F5E",
-  `lightblue`   = "#5393EA",
-  `yellow`      = "#FFAD05",
-  `persiangreen`= "#18A999",
-  `platinum`    = "#E2E2E2",
-  `pink`        = "#DC479F",
-  `desertsand`  = "#EAD2AC",
-  `carminepink` = "#E54E4D"
+  `primary`  = "#23374d",
+  `emphasis` = "#FFA400",
+  `black`    = "#240115",
+  `red`      = "#DE3C4B",
+  `blue`     = "#1089ff",
+  `mauve`    = "#C3979F"
 )
 
 #' Function to extract `cr_color_list` colors as hex codes
@@ -49,7 +46,7 @@ cr_palettes <-
   list(
     `diverging`   = cr_colors("divred2", "divred3", "divred4", "divred5", "divneutr", "divblue5", "divblue4", "divblue3", "divblue2"),
     `sequential`  = cr_colors("seqblue1", "seqblue2", "seqblue3", "seqblue4", "seqblue5", "seqblue6", "seqblue7", "seqblue8", "seqblue9"),
-    `categorical` = cr_colors("oxfordblue", "granitegray","lightblue","yellow", "persiangreen", "platinum","pink", "desertsand","carminepink")
+    `categorical` = cr_colors("primary", "emphasis","black","red", "blue", "mauve")
   )
 
 #' Connor Rothschild custom color palettes

@@ -43,15 +43,12 @@ palettes:
       ["#fff7fb","#ece7f2","#d0d1e6","#a6bddb","#74a9cf","#3690c0","#0570b0","#045a8d","#023858"]
     ]
   cr_main:
-    oxfordblue: "#151248"
-    carminepink: "#E54E4D"
-    lightblue: "#5393EA"
-    tomato: "#FF6542"
-    pineapple: "#564154"
-    uclablue: "#556F91"
-    pink: "#DC479F"
-    desertsand: "#EAD2AC"
-    turquoise: "#41EAD4"
+    primary: "#23374d"
+    emphasis: "#FFA400"
+    black: "#240115"
+    red: "#DE3C4B"
+    blue: "#1089ff"
+    mauve: "#C3979F"
   cr_diverging:
     #red1: "#67001f"
     red2:  "#b2182b"
