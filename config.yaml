@@ -44,11 +44,11 @@ palettes:
     ]
   cr_main:
     primary: "#23374d"
-    emphasis: "#FFA400"
     black: "#240115"
     red: "#DE3C4B"
     blue: "#1089ff"
     mauve: "#C3979F"
+    emphasis: "#FFA400"
   cr_diverging:
     #red1: "#67001f"
     red2:  "#b2182b"
