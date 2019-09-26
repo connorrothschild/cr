@@ -10,7 +10,8 @@
 #' @export
 cr_font_install <- function() {
   if (sum(grepl("[Aa]dobe [Cc]aslon [Pp]ro*", extrafont::fonts())) > 0 &&
-      sum(grepl("[Ll]ato*", extrafont::fonts())) > 0) {
+      sum(grepl("[Ll]ato*", extrafont::fonts())) > 0 &&
+      sum(grepl("IBM Plex Sans*",  extrafont::fonts())) > 0) {
     "Available fonts (Adobe Caslon Pro and Lato) already imported and registered."
   } else {
     # sysfonts::font_add("Adobe Caslon Pro", regular = "Adobe Caslon Pro Regular.ttf")

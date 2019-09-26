@@ -8,7 +8,7 @@
 #' @import ggrepel
 #' @md
 #' @export
-set_cr_theme <- function(font = "adobe") {
+set_cr_theme <- function(font = "ibm") {
 
   # .onLoad()
 
@@ -17,7 +17,12 @@ set_cr_theme <- function(font = "adobe") {
 
   # add font
 
-  if (font == "adobe") {
+  if (font == "ibm") {
+    ggplot2::theme_update(text = ggplot2::element_text(family = "IBM Plex Sans"))
+    ggplot2::update_geom_defaults("text", list(family = "IBM Plex Sans"))
+    ggplot2::update_geom_defaults("label", list(family = "IBM Plex Sans"))
+
+  } else if (font == "adobe") {
     ggplot2::theme_update(text = ggplot2::element_text(family = "Adobe Caslon Pro"))
     ggplot2::update_geom_defaults("text", list(family = "Adobe Caslon Pro"))
     ggplot2::update_geom_defaults("label", list(family = "Adobe Caslon Pro"))
@@ -67,3 +72,5 @@ set_cr_theme <- function(font = "adobe") {
     ggplot2::update_stat_defaults("ydensity", list(fill = config$palettes$cr_main$primary))
 
 }
+
+set_cr_theme()
