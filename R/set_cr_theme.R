@@ -72,5 +72,3 @@ set_cr_theme <- function(font = "ibm") {
     ggplot2::update_stat_defaults("ydensity", list(fill = config$palettes$cr_main$primary))
 
 }
-
-set_cr_theme()
