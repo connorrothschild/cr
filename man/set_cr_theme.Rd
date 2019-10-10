@@ -4,7 +4,7 @@
 \alias{set_cr_theme}
 \title{Custom \link{ggplot2} theme for personal use by Connor Rothschild}
 \usage{
-set_cr_theme(font = "adobe")
+set_cr_theme(font = "ibm")
 }
 \arguments{
 \item{font}{The font for plot labels, axes, and titles. Options are "adobe" (Adobe Caslon Pro) and "lato" (Lato).}

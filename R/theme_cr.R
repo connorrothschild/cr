@@ -11,7 +11,7 @@
 #' @param base_line_size base line
 #' @param base_rect_size rectangle sizes
 #' @export
-theme_cr <- function(base_size = 11, base_family = "Adobe Caslon Pro",
+theme_cr <- function(base_size = 11, base_family = "IBM Plex Sans",
                              base_line_size = 0.5,
                              base_rect_size = 0.5) {
 

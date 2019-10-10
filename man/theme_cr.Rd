@@ -4,7 +4,7 @@
 \alias{theme_cr}
 \title{A print \link{ggplot2} theme formatted in CR style}
 \usage{
-theme_cr(base_size = 11, base_family = "Adobe Caslon Pro",
+theme_cr(base_size = 11, base_family = "IBM Plex Sans",
   base_line_size = 0.5, base_rect_size = 0.5)
 }
 \arguments{
