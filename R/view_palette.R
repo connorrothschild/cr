@@ -3,7 +3,7 @@
 #' \code{view_palette} displays the colors and hexadecimal codes for \code{palette_cr_*} vectors.
 #' These palettes were generated on www.coolors.co/.
 #'
-#' @param palette A \code{palette_cr_*} vector from \code{library(cr)}.
+#' @param palette A \code{palette_cr_*} vector from \code{cr}.
 #'   Options are `palette_cr_main`, `palette_cr_diverging`, `palette_cr_politics`, and `palette_cr_sequential`
 #'
 #' @examples
