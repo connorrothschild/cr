@@ -7,7 +7,7 @@
 view_palette(palette = palette_cr_main)
 }
 \arguments{
-\item{palette}{A \code{palette_cr_*} vector from \code{library(cr)}.
+\item{palette}{A \code{palette_cr_*} vector from \code{cr}.
 Options are \code{palette_cr_main}, \code{palette_cr_diverging}, \code{palette_cr_politics}, and \code{palette_cr_sequential}}
 }
 \description{

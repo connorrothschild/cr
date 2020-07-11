@@ -5,6 +5,7 @@
 #'
 #' @import extrafont
 #' @import ggrepel
+#' @import conflicted
 #' @md
 #' @export
 undo_cr_theme <- function() {

@@ -2,44 +2,22 @@
 #'
 #' \code{set_cr_theme} provides a [ggplot2] theme formatted for use by Connor Rothschild
 #'
-#' @param style The default theme style for the R session. Options are "print" or "map".
-#' @param font The font for plot labels, axes, and titles. Options are "adobe" (Adobe Caslon Pro) and "lato" (Lato).
+#' @param font The font for plot labels, axes, and titles.
 #' @import extrafont
 #' @import ggrepel
+#' @import yaml
+#'
 #' @md
 #' @export
-set_cr_theme <- function(font = "ibm") {
-
-  # .onLoad()
+set_cr_theme <- function(font = "Lato") {
 
   # set default theme
-    ggplot2::theme_set(theme_cr())
+    ggplot2::theme_set(theme_cr(base_family = font))
 
   # add font
-
-  if (font == "ibm") {
-    ggplot2::theme_update(text = ggplot2::element_text(family = "IBM Plex Sans"))
-    ggplot2::update_geom_defaults("text", list(family = "IBM Plex Sans"))
-    ggplot2::update_geom_defaults("label", list(family = "IBM Plex Sans"))
-
-  } else if (font == "adobe") {
-    ggplot2::theme_update(text = ggplot2::element_text(family = "Adobe Caslon Pro"))
-    ggplot2::update_geom_defaults("text", list(family = "Adobe Caslon Pro"))
-    ggplot2::update_geom_defaults("label", list(family = "Adobe Caslon Pro"))
-    # ggplot2::update_geom_defaults("text_repel", list(family = "Adobe Caslon Pro"))
-    # ggplot2::update_geom_defaults("label_repel", list(family = "Adobe Caslon Pro"))
-
-  } else if (font == "lato") {
-    ggplot2::theme_update(text = ggplot2::element_text(family = "Lato"))
-    ggplot2::update_geom_defaults("text", list(family = "Lato"))
-    ggplot2::update_geom_defaults("label", list(family = "Lato"))
-    # ggplot2::update_geom_defaults("text_repel", list(family = "Lato"))
-    # ggplot2::update_geom_defaults("label_repel", list(family = "Lato"))
-
-  } else {
-    stop('Font does not exist. Try "adobe" (Adobe Caslon Pro) or "lato" (Lato).',
-         call. = FALSE)
-  }
+    ggplot2::theme_update(text = ggplot2::element_text(family = font))
+    ggplot2::update_geom_defaults("text", list(family = font))
+    ggplot2::update_geom_defaults("label", list(family = font))
 
 # select color palette
 

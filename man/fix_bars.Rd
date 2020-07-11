@@ -4,12 +4,14 @@
 \alias{fix_bars}
 \title{Custom \link{ggplot2} theme for personal use by Connor Rothschild}
 \usage{
-fix_bars(type = "continuous", axis = "y")
+fix_bars(type = "continuous", axis = "y", ...)
 }
 \arguments{
 \item{type}{Data type. Options include "continuous" or "discrete"}
 
 \item{axis}{Axis the data belong to. Options include "x" or "y"}
+
+\item{...}{Remaining arguments}
 }
 \description{
 Drops tick axes and axes labels

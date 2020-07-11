@@ -1,3 +1,8 @@
+#' List of CR colors
+#'
+#' @format A \code{list}
+#' @rdname CR_palettes
+#' @export
 cr_color_list <- c(
   `seqblue1` = "#f7fbff",
   `seqblue2` = "#deebf7",
@@ -41,6 +46,7 @@ cr_colors <- function(...) {
 #' List of CR Palettes
 #'
 #' @format A \code{list}
+#' @rdname CR_palettes
 #' @export
 cr_palettes <-
   list(

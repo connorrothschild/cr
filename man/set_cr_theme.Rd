@@ -4,12 +4,10 @@
 \alias{set_cr_theme}
 \title{Custom \link{ggplot2} theme for personal use by Connor Rothschild}
 \usage{
-set_cr_theme(font = "ibm")
+set_cr_theme(font = "Lato")
 }
 \arguments{
-\item{font}{The font for plot labels, axes, and titles. Options are "adobe" (Adobe Caslon Pro) and "lato" (Lato).}
-
-\item{style}{The default theme style for the R session. Options are "print" or "map".}
+\item{font}{The font for plot labels, axes, and titles.}
 }
 \description{
 \code{set_cr_theme} provides a \link{ggplot2} theme formatted for use by Connor Rothschild
