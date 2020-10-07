@@ -30,10 +30,10 @@ cr_color_list <- c(
   # `emphasis` = "#FFA400"
   `primary`  = "#012956",
   `black`    = "#5c1a58",
-  `red`      = "#ff5968",
-  `blue`     = "#7ea0cf",
+  `red`      = "#DE3C4B",
+  `blue`     = "#1089ff",
   `mauve`    = "#C3979F",
-  `emphasis` = "#d9951c"
+  `emphasis` = "#FFA400"
 )
 
 #' Function to extract `cr_color_list` colors as hex codes
@@ -58,7 +58,7 @@ cr_palettes <-
   list(
     `diverging`   = cr_colors("divred2", "divred3", "divred4", "divred5", "divneutr", "divblue5", "divblue4", "divblue3", "divblue2"),
     `sequential`  = cr_colors("seqblue1", "seqblue2", "seqblue3", "seqblue4", "seqblue5", "seqblue6", "seqblue7", "seqblue8", "seqblue9"),
-    `categorical` = cr_colors("primary","black","red", "blue", "mauve",  "emphasis")
+    `categorical` = cr_colors("primary", "black", "red", "blue", "mauve",  "emphasis")
   )
 
 #' Connor Rothschild custom color palettes
