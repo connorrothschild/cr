@@ -2,9 +2,8 @@
 #'
 #' Drops tick axes and axes labels
 #'
-#' @example \dontrun{
+#' @examples
 #' plot + drop_axis(axis = "both")
-#' }
 #'
 #' @param axis Axis to drop "x", "y", "both", or "neither". The function will keep whatever is not included in "drop."
 #'

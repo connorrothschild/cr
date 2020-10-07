@@ -22,12 +22,18 @@ cr_color_list <- c(
   `divblue4` = "#92c5de",
   `divblue3` = "#4393c3",
   `divblue2` = "#2166ac",
-  `primary`  = "#23374d",
-  `black`    = "#240115",
-  `red`      = "#DE3C4B",
-  `blue`     = "#1089ff",
+  # `primary`  = "#23374d",
+  # `black`    = "#240115",
+  # `red`      = "#DE3C4B",
+  # `blue`     = "#1089ff",
+  # `mauve`    = "#C3979F",
+  # `emphasis` = "#FFA400"
+  `primary`  = "#012956",
+  `black`    = "#5c1a58",
+  `red`      = "#ff5968",
+  `blue`     = "#7ea0cf",
   `mauve`    = "#C3979F",
-  `emphasis` = "#FFA400"
+  `emphasis` = "#d9951c"
 )
 
 #' Function to extract `cr_color_list` colors as hex codes

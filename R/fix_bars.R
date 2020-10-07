@@ -2,9 +2,8 @@
 #'
 #' Drops tick axes and axes labels
 #'
-#' @example \dontrun{
+#' @examples
 #' plot + fix_bars(type = "continuous", axis = "y")
-#' }
 #'
 #' @param axis Axis the data belong to. Options include "x" or "y"
 #' @param type Data type. Options include "continuous" or "discrete"

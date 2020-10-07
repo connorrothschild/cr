@@ -43,12 +43,12 @@ palettes:
       ["#fff7fb","#ece7f2","#d0d1e6","#a6bddb","#74a9cf","#3690c0","#0570b0","#045a8d","#023858"]
     ]
   cr_main:
-    primary: "#23374d"
-    black: "#240115"
-    red: "#DE3C4B"
-    blue: "#1089ff"
-    mauve: "#C3979F"
-    emphasis: "#FFA400"
+    primary: "#012956"
+    black: "#5c1a58"
+    red: "#ff5968"
+    blue: "#7ea0cf"
+    mauve: "#c3979f"
+    emphasis: "#d9951c"
   cr_diverging:
     #red1: "#67001f"
     red2:  "#b2182b"

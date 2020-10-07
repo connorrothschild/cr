@@ -29,7 +29,7 @@ view_palette <- function(palette = palette_cr_main) {
     ggplot2::geom_text(ggplot2::aes_string(2, "y"), label = color_palette) +
     ggplot2::scale_color_manual(values = color_palette) +
     ggplot2::scale_x_continuous(limits = c(0, 3)) +
-    ggmap::theme_nothing()
-    ggplot2::guides(color = FALSE)
+    ggmap::theme_nothing() +
+    ggplot2::guides(color = 'none')
 
 }

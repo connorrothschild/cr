@@ -16,3 +16,7 @@ fix_bars(type = "continuous", axis = "y", ...)
 \description{
 Drops tick axes and axes labels
 }
+\examples{
+plot + fix_bars(type = "continuous", axis = "y")
+
+}
